@@ -7,9 +7,11 @@
     </head>
     <body bgcolor="000033">
         <h1 class="Hello">Добро пожаловать на увлекательный сайт с информацией о нашей необьятной галактики!</h1>
-        <a class="History" href="https://qwez1.github.io/Milky-way3/">История млечного пути</a>
-        <a class="Info" href="https://qwez1.github.io/Milky-way2/">Актуальная информация о млечном пути</a>
-        <a class="detalinfo" href="https://qwez1.github.io/detal/">Подробная информация</a> 
+        <div class="conteiner">
+            <a class="History" href="https://qwez1.github.io/Milky-way3/">История млечного пути</a>
+            <a class="Info" href="https://qwez1.github.io/Milky-way2/">Актуальная информация о млечном пути</a>
+            <a class="detalinfo" href="https://qwez1.github.io/detal/">Подробная информация</a>
+        </div>
         <style>
         a {
             font-size: 17px;
@@ -23,6 +25,11 @@
             width: auto;
         }
 
+        .conteiner {
+            width:1100px;
+            margin: auto;
+        }
+        
         a:hover {
             color: gray;
         }
@@ -36,23 +43,23 @@
         }
 
         a.History {
-            margin-top: 270px;
-            margin-left: 825px;
+            position: absolute;
+            top: 25%;
+            left: 45%;
             display: flex;
-            margin-right: 850px;
         }
 
         a.Info {
-            margin-left: 735px;
-            margin-right: 780px;
-            margin-top: 50px;
+            position: absolute;
+            top: 32%;
+            left: 41%;
             display: flex;
         }
 
         a.detalinfo {
-            margin-left: 820px;
-            margin-right: 845px;
-            margin-top: 50px;
+            position: absolute;
+            top: 39%;
+            left: 45%;
             display: flex;
         }
         
